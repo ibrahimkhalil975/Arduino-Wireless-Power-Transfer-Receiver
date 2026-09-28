@@ -14,14 +14,13 @@ Developed and documented by **MSc. Ibrahim Khalil Kamil** as part of academic re
 
 ## 🖼️ System Hardware & User Interface Gallery
 
-| Wi-Fi Connection & IP | Sensor Reading (BPM & SpO2) | Standby Mode Prompt |
+| Hardware Setup | Vital Signs Reading (BPM & SpO2) | Standby Mode Prompt |
 | :---: | :---: | :---: |
-| <img src="images/ip_connecting.png" width="230"/> | <img src="images/reading_display.png" width="230"/> | <img src="images/place_finger.png" width="230"/> |
+| <img src="Picture1.jpg" width="230"/> | <img src="Picture2.jpg" width="230"/> | <img src="Picture3.jpg" width="230"/> |
 
-<p align="center">
-  <b>Web-Based Real-Time Medical HUD Interface</b><br>
-  <img src="images/web_hud_interface.png" width="550" alt="Web HUD Interface"/>
-</p>
+| Wi-Fi Connection & IP | Web HUD Interface | Finger Placement & Sensor Alignment |
+| :---: | :---: | :---: |
+| <img src="Picture4.jpg" width="230"/> | <img src="Picture5.png" width="230"/> | <img src="Picture6.png" width="230"/> |
 
 ---
 
