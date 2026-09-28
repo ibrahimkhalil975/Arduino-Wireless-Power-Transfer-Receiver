@@ -12,6 +12,27 @@ Developed and documented by **MSc. Ibrahim Khalil Kamil** as part of academic re
 
 ---
 
+## 🖼️ System Hardware & User Interface Gallery
+
+| Wi-Fi Connection & IP | Sensor Reading (BPM & SpO2) | Standby Mode Prompt |
+| :---: | :---: | :---: |
+| <img src="images/ip_connecting.png" width="230"/> | <img src="images/reading_display.png" width="230"/> | <img src="images/place_finger.png" width="230"/> |
+
+<p align="center">
+  <b>Web-Based Real-Time Medical HUD Interface</b><br>
+  <img src="images/web_hud_interface.png" width="550" alt="Web HUD Interface"/>
+</p>
+
+---
+
+## 🖨️ Custom 3D-Printed Enclosure & Finger Clip
+The physical device features a custom **3D-printed black enclosure and ergonomic finger clip** designed to secure the optical sensor, prevent ambient light interference, and ensure stable skin-sensor contact.
+
+- **CAD Models:** Available in the [`3D_Models/`](./3D_Models) directory.
+- **Enclosure Design:** Houses the ESP8266 NodeMCU, 16x2 LCD display, active buzzer, and MAX30102 sensor cleanly.
+
+---
+
 ## 🛠️ Key Technical Features
 - **Photoplethysmographic Sensing:** Employs the MAX30102/MAX30105 biophotometric optical sensor utilizing Red (660nm) and Infrared (880nm) LEDs with a high-sensitivity photodetector.
 - **Embedded Web Server:** Embedded TCP/IP stack running on NodeMCU ESP8266 hosting a responsive, dynamic web HUD (HTML5/CSS3/JavaScript) updating via JSON APIs.
@@ -29,7 +50,7 @@ Developed and documented by **MSc. Ibrahim Khalil Kamil** as part of academic re
 | **MAX30102 / MAX30105** | Biophotometric Pulse & $SpO_2$ Sensor | SDA -> GPIO4 (D2), SCL -> GPIO5 (D1) |
 | **LCD 16x2 (I2C Adapter)** | Local Real-Time Display | SDA -> GPIO4 (D2), SCL -> GPIO5 (D1) |
 | **Active Buzzer** | Audio Completion Notification | Positive -> GPIO14 (D5) |
-| **Power Supply** | Regulated $3.3\text{V}$ / USB $5\text{V}$ Source | Vin / 3V3 & GND |
+| **3D Printed Enclosure** | Component Protection & Finger Alignment | Physical Case |
 
 ---
 
